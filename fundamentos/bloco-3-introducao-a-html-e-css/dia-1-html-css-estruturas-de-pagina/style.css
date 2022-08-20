@@ -1,0 +1,27 @@
+body {
+    background-color: #857885;
+
+}
+
+#nome {
+    color:chocolate;
+}
+
+p {
+    color:crimson;
+    font-size: 27px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.listaorgulho {
+    font-size: 30px;
+}
+
+img {
+    border-radius: 100%;
+}
+
+a {
+    text-decoration: none;
+}
