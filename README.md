@@ -6,13 +6,29 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
-##### Bloco 1: [Unix, Bash e Shell Script](https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-01-unix-bash-e-shell-script)
+##### Bloco 1: [Unix, Bash e Shell Script]
 - [x] 1.3 - Fundamentos do Desenvolvimento Web
 - [x] 1.3 - Introdução - Unix & Shell
 - [x] 1.3 - Unix & Bash - Parte 1
 - [x] 1.4 - Unix & Bash - Parte 2
 
-##### Bloco 2: [Git, GitHub e Internet](https://github.com/paulohbsimoes/trybe-exercises/tree/master/01-fundamentos/bloco-02-git-github-e-internet)
+##### Bloco 2: [Git, GitHub e Internet]
 - [x] 2.1 - Git & GitHub  - O que é e para que serve
-- [] 2.2 - Git & GitHub - Entendendo os comandos
-- [] 2.3 - Internet - Entendendo como ela funciona
+- [x] 2.2 - Git & GitHub - Entendendo os comandos
+- [x] 2.3 - Internet - Entendendo como ela funciona
+
+##### Bloco 3: [Introdução à HTML e CSS]
+- [x] 3.1 - Introdução - HTML & CSS
+- [x] 3.1 - HTML & CSS - Estruturas de página
+- [x] 3.2 - HTML & CSS - Primeiros passos em CSS
+- [x] 3.3 - HTML & CSS - Seletores e posicionamento
+- [x] 3.4 - HTML Semântico
+- [x] 3.5 - Projeto - Lessons Learned
+
+##### Bloco 4: [Introdução à JavaScript e Lógica de Programação]
+- [x] 4.1 - Introdução - JavaScript
+- [x] 4.1 - JavaScript - Primeiros passos
+- [x] 4.2 - JavaScript - Array e loop For
+- [] 4.3 - JavaScript - Lógica de Programação e Algoritmos
+- [] 4.4 - JavaScript - Objetos e funções
+- [] 4.5 - Projeto - Playground Functions
