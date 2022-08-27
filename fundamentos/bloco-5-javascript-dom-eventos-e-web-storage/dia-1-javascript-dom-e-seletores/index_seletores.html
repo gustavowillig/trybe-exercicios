@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      // 1
+      document.getElementById('page-title').innerText = 'Novo título Bombástico';
+      // 2
+      document.getElementsByTagName('p')[1].innerText = "Segundo parágrafo super bombástico";
+      // 3
+      document.getElementById('subtitle').innerText = 'Subtítulo super bombástico';
+      // 4
+      let paragrafos = document.getElementsByTagName('p');
+      for (let index = 0; index < paragrafos.length; index += 1) {
+        paragrafos[index].className = 'paragraph';
+      }
+      // 5
+      console.log(document.getElementsByClassName('paragraph'));
+      // 6
+      document.getElementById('paragraph').style.color = 'green';
+      // 7
+      document.getElementsByTagName('h4')[0].style.color = 'purple';
+    </script>
+  </body>
+</html>

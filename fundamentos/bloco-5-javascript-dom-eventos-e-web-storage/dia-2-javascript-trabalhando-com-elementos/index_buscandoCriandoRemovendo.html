@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main id="paiDoPai">
+    <section id="pai">
+      <section id="primeiroFilho"></section>
+      <section id="elementoOndeVoceEsta">
+        <section id="primeiroFilhoDoFilho"></section>
+        <section id="segundoEUltimoFilhoDoFilho"></section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho"></section>
+      <section id="quartoEUltimoFilho"></section>
+    </section>
+  </main>
+    <script>
+      // 1
+      console.log(document.getElementById("elementoOndeVoceEsta"));
+      // 2
+      document.getElementById("elementoOndeVoceEsta").parentNode.style.backgroundColor = 'blue';
+      // 3
+      let primeiroFilho = document.getElementById("elementoOndeVoceEsta").firstElementChild;
+      primeiroFilho.innerText = 'olha só';
+      // 4
+      console.log(document.getElementById("pai").firstElementChild);
+      // 5
+      console.log(document.getElementById("elementoOndeVoceEsta").previousElementSibling);
+      // 6
+      console.log(document.getElementById("elementoOndeVoceEsta").nextSibling);
+      // 7
+      console.log(document.getElementById("elementoOndeVoceEsta").nextElementSibling);
+      // 8
+      console.log(document.getElementById("pai").lastElementChild.previousElementSibling);
+      // 9
+      // let newSection = document.createElement('section');
+      // document.getElementById("pai").appendChild(newSection);
+      // 10
+      // let newSection_2 = document.createElement('section');
+      // document.getElementById("elementoOndeVoceEsta").appendChild(newSection_2);
+      // 11
+      // let newSection_3 = document.createElement('section');
+      // document.getElementById("primeiroFilhoDoFilho").appendChild(newSection_3);
+      // 12
+      // console.log(newSection_3.parentNode.parentNode.nextElementSibling);
+      // 13
+      let pai = document.getElementById("pai");
+      for (let index = pai.childNodes.length - 1; index >= 0; index -= 1) {
+        const currentChildren = pai.childNodes[index];
+        if (currentChildren.id !== 'elementoOndeVoceEsta') {
+          currentChildren.remove();
+        }
+      }
+      const segundoEUltimoFilhoDoFilho = document.getElementById('segundoEUltimoFilhoDoFilho');
+      segundoEUltimoFilhoDoFilho.remove();
+    </script>
+  </main>

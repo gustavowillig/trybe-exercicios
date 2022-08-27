@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // COLOQUE SEU CÓDIGO AQUI
+      let criacaoH = document.createElement('h1');
+      criacaoH.innerText = "Exercício 5.2 - JavaScript DOM";
+      document.body.appendChild(criacaoH);
+      let criacaoMain = document.createElement('main');
+      criacaoMain.className = "main-content";
+      document.body.appendChild(criacaoMain);
+      criacaoSection = document.createElement('section');
+      criacaoSection.className = "center-content";
+      let variavelMain = document.querySelector(".main");
+      criacaoMain.appendChild(criacaoSection);
+      criacaoP = document.createElement('p');
+      criacaoP.innerText = "Parágrafo P";
+      criacaoSection.appendChild(criacaoP);
+      criacaoSegundaSection = document.createElement('section');
+      criacaoSegundaSection.className = "left-content";
+      criacaoMain.appendChild(criacaoSegundaSection);
+      criacaoTerceiraSection = document.createElement('section');
+      criacaoTerceiraSection.className = "right-content";
+      criacaoMain.appendChild(criacaoTerceiraSection);
+      let imagem = document.createElement('img');
+      imagem.src = 'https://picsum.photos/200';
+      imagem.className = 'small-image';
+      criacaoSegundaSection.appendChild(imagem);
+      criacaoul = document.createElement('ul');
+      criacaoTerceiraSection.appendChild(criacaoul);
+      for (let index = 1; index <= 10; index += 1) {
+        criacaoli = document.createElement('li');
+        criacaoli.innerText = index;
+        criacaoul.appendChild(criacaoli);
+      }
+      for (let index = 0; index < 3; index += 1) {
+        criacaoH3 = document.createElement('h3');
+        criacaoH3.className = 'description';
+        criacaoMain.appendChild(criacaoH3);
+      }
+      criacaoH.className = 'title';
+      criacaoMain.removeChild(criacaoSegundaSection);
+      criacaoTerceiraSection.style.marginRight = 'auto';
+      criacaoSection.parentNode.style.backgroundColor = 'green';
+      for (let index = 0; index < 2; index += 1) {
+        criacaoul.removeChild(criacaoul.lastElementChild);
+      }
+    </script>
+  </body>
+</html>
