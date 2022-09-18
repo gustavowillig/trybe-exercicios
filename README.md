@@ -30,5 +30,30 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 4.1 - JavaScript - Primeiros passos
 - [x] 4.2 - JavaScript - Array e loop For
 - [x] 4.3 - JavaScript - Lógica de Programação e Algoritmos
-- [] 4.4 - JavaScript - Objetos e funções
-- [] 4.5 - Projeto - Playground Functions
+- [x] 4.4 - JavaScript - Objetos e funções
+- [x] 4.5 - Projeto - Playground Functions
+
+##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage]
+- [x] 5.1 - JavaScript - DOM e seletores
+- [x] 5.2 - JavaScript - Trabalhando com elementos
+- [x] 5.3 - JavaScript - Eventos
+- [x] 5.4 - JavaScript - Web Storage
+- [x] 5.5 - Projeto - Arte com Pixels
+- [x] 5.6 - Projeto - Lista de tarefas
+- [x] 5.7 - Projeto - Meme Generator
+- [x] 5.8 - Projeto - Adivinhe a Cor
+- [x] 5.9 - Projeto - Carta Misteriosa
+
+##### Bloco 6: [HTML & CSS avançado]
+- [x] 6.1 - HTML & CSS - Forms
+- [x] 6.2 - Bibliotecas JavaScript e Frameworks CSS
+- [x] 6.3 - CSS Flexbox - Part 1
+- [x] 6.4 - CSS Flexbox - Part 2
+- [x] 6.5 - CSS Responsivo - Mobile First
+- [x] 6.6 - Projeto - TrybeWarts
+
+##### Bloco 7: [JavaScript ES6 & Teste Unitários]
+- [x] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
+- [x] 7.2 - JavaScript ES6 - Objects
+- [] 7.3 - Testes unitários em JavaScript
+- [] 7.4 - Projeto - JavaScript Testes Unitários
